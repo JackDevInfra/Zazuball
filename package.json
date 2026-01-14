@@ -1,0 +1,14 @@
+{
+  "name": "pumpball",
+  "version": "0.1.0",
+  "description": "Continuous randomized holder distribution engine",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

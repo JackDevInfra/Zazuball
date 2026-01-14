@@ -1,0 +1,5 @@
+export const CONFIG = {
+  MIN_BALANCE: 100000,
+  SELECTION_COUNT: 50,
+  INTERVAL_MS: 10 * 60 * 1000
+};
