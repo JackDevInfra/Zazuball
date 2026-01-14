@@ -1,17 +1,17 @@
-![Pumpball](pumpball.png)
+![Zazuball](zazuball.png)
 
-# Pumpball
+# Zazuball
 
-Pumpball is a deterministic distribution mechanism built for pumpfun-style tokens.
+Zazuball is a deterministic distribution mechanism built for pumpfun-style tokens.
 
 The system continuously monitors holder balances, enforces a minimum eligibility threshold, and executes recurring randomized reward selection without staking, snapshots, claim windows, or manual intervention.
 
-Pumpball is designed to convert ongoing on-chain activity into proportional token flow back to committed holders.
+Zazuball is designed to convert ongoing on-chain activity into proportional token flow back to committed holders.
 
 ## Concept
 
 Traditional holder rewards rely on static snapshots or discretionary logic.
-Pumpball operates on a rolling state model.
+Zazuball operates on a rolling state model.
 
 At a fixed interval, the protocol:
 - Identifies all holders above a defined balance threshold
@@ -72,4 +72,3 @@ Intervals are deterministic and auditable.
 
 This repository provides reference logic only.
 On-chain execution requires proper auditing and adaptation.
-
